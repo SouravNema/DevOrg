@@ -13,7 +13,7 @@ public class strtTest{
         //accList = [select id from account where name = 'sourav'];
         System.debug('number of dml '+accList.size());
         Test.startTest();
-            System.debug('number of dml executed '+Limits.getDMLStatements());
+            System.debug('number of dmllll executed '+Limits.getDMLStatements());
             System.debug('number of dml remain '+Limits.getLimitDMLStatements());
         Test.stopTest();    
          
